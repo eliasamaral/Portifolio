@@ -1,0 +1,262 @@
+*{margin: 0; text-align: center;}
+
+body{background-color: #fff;}
+
+/* CENTRALIZA O SITE */
+.wrapper{
+width              : 80%;
+max-width          : 1000px;
+margin             : auto;
+overflow           : hidden;
+
+}
+
+/* CABEÇARIO */
+.linha-vertical {
+margin-left        : 32%;
+height             : 30px;
+margin-top         : 20px;
+border-left        : 1px solid;
+color              : #ccc;
+}
+
+
+header{
+position           : fixed;
+width              : 100%;
+height             : 80px;
+overflow           : hidden;
+background-color   : #fff;
+box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.2);
+
+}
+
+header .logo{
+float              : left;
+line-height        : 40%;
+margin-top         : 15px;
+}
+
+
+header nav{
+float              : right;
+line-height        : 50%;
+margin-top         : 15px;
+
+}
+
+header nav a{
+display            : inline-block;
+color:#001b29;
+text-decoration    : none;
+padding            : 15px 20px;
+line-height        : normal;
+font-size          : 15px;
+font-family        : 'Raleway', sans-serif;
+font-weight        : lighter;
+-webkit-transition : all 500ms ease;
+-o-transition      : all 500ms ease;
+transition         : all 500ms ease;
+}
+
+header nav a:hover{
+color: #fff;
+font-weight: bold;
+background-color: #001b29;
+border-radius: 50px;
+}
+
+/* FRASE DE ENTRADA */
+
+.entrada{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	padding-top: 150px;
+}
+
+.entrada h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+/* BLOCO "SOBRE" */
+.sobre{
+	width: 100%;
+	padding-top: 80px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.conteudo-sobre{
+	display: table;
+	padding-top: 50px;
+}
+
+.avatar img{
+	width:20%;
+	border-radius: 50%;
+	display: table-cell;
+	float: left;
+}
+
+.text{
+	display: table-cell;
+	float: left;
+	width: 450px;
+	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;	
+}
+
+/* BLOCO "PORTIFÓLIO" */
+.portifólio{
+	margin: auto;
+	width: 100%;
+	padding-top: 80px;
+}
+
+.portifólio h3{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+
+}
+
+.h3-subtitle{
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.conteudo-portifólio{
+	padding-top: 50px;
+}
+
+.example-image{
+	border: 2px solid #fff;
+	
+}
+
+.example-image:hover{
+	border: 2px solid #4c89e3;
+	border-radius: 3px;8
+	
+}
+
+.portifólio-destaques{
+	padding-top: 50px;
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+/* BLOCO FOOTER */
+.barra-final{
+	margin-top: 30px;
+	background-color: #000;
+
+	text-align: center;
+}
+
+#icons-contato a{
+	color: #c9bbbb;
+	text-decoration    : none;
+	padding            : 15px 20px 0px;
+	font-size          : 15px;
+	font-family        : 'Raleway', sans-serif;
+	display            : inline-block;
+}
+ h6{
+ 	color: #c9bbbb;
+	text-decoration    : none;
+	padding            : 15px 20px;
+	font-size          : 8px;
+	font-family        : 'Raleway', sans-serif;
+	font-weight: lighter;
+	display            : inline-block;
+	
+}
+
+/* RESPOSIVO */
+
+@media only screen and (max-width: 400px) {
+
+/* CABEÇARIO */
+
+header{
+position           : fixed;
+width              : 100%;
+height             : 120px;
+overflow           : hidden;
+background-color   : #fff;
+box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.2);
+
+}
+
+header .logo{
+padding-left: 50%;
+line-height        : 40%;
+margin-top         : 15px;
+}
+
+
+header nav{
+float              : right;
+line-height        : 50%;
+margin-top         : 5px;
+
+}
+
+header nav a{
+display            : inline-block;
+color:#001b29;
+text-decoration    : none;
+padding            : 15px 20px;
+line-height        : normal;
+font-size          : 15px;
+font-family        : 'Raleway', sans-serif;
+font-weight        : lighter;
+-webkit-transition : all 500ms ease;
+-o-transition      : all 500ms ease;
+transition         : all 500ms ease;
+}
+
+header nav a:hover{
+color: #fff;
+font-weight: bold;
+background-color: #001b29;
+border-radius: 50px;
+}
+
+   
+
+
+}
+@media only screen and (max-width: 800px) {
+
+	.avatar img{
+	width:30%;
+	border-radius: 50%;
+	display: table-cell;
+	margin-left: 35%; 
+}
+.text{
+	display: table-cell;
+	float: left;
+	width: 500px;
+	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;	
+	padding-top: 50px;
+}
+}
